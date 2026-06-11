@@ -1,7 +1,7 @@
 [
   {
     "name": "Tioreh",
-    "role": "Support / Healer",
+    "role": "Unterstützer",
     "image": "assets/tioreh.png",
 
     "builds": [
@@ -57,7 +57,7 @@
 },
   {
     "name": "Meliodas",
-    "role": "DPS",
+    "role": "Schaden",
     "image": "assets/meliodas.png",
 
     "builds": [
@@ -81,17 +81,17 @@
     "name": "Axt",
     "icon": "assets/axt.png",
     
-    "engraved": "Beginn des Abenteuers",
-    "chest": "Lebenskristall",
-    "legs": "Lebenskristall",
-    "boots": "Lebenskristall",
-    "belt": "Lebenskristall",
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
 
-    "earrings": "Healing Efficiency",
-    "necklace": "Buff Duration",
-    "ring": "Magic Charge",
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
 
-    "notes": "Top Support für lange Bosskämpfe mit Heal + Buff Sustain."
+    "notes": "-"
   },
  {
     "name": "Doppelschwerter",
@@ -111,15 +111,1124 @@
   }
  ]
  },
+  {
+    "name": "Merlin",
+    "role": "Schaden,Burst",
+    "image": "assets/merlin.png",
 
+    "builds": [
+   {
+    "name": "Buch",
+    "icon": "assets/buch.png",
 
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
 
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
 
+    "notes": "-"
+  },
+  {
+    "name": "Zauberstab",
+    "icon": "assets/zauberstab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
 
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
 
+    "notes": "-"
+  },
+ {
+    "name": "Stab",
+    "icon": "assets/stab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
 
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
 
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Clotho",
+    "role": "Schaden,Unterstützer,Burst",
+    "image": "assets/clotho.png",
 
-{
-}
+    "builds": [
+   {
+    "name": "Rapier",
+    "icon": "assets/rapier.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Buch",
+    "icon": "assets/buch.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Stab",
+    "icon": "assets/stab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Daisy",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/daisy.png",
+
+    "builds": [
+   {
+    "name": "Schild",
+    "icon": "assets/schild.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Buch",
+    "icon": "assets/buch.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Zauberstab",
+    "icon": "assets/zauberstab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Diane",
+    "role": "Schaden,Burst,Unterstützer",
+    "image": "assets/diane.png",
+
+    "builds": [
+   {
+    "name": "Axt",
+    "icon": "assets/axt.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Handschuhe",
+    "icon": "assets/handschuhe.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Nunchaku",
+    "icon": "assets/nunchakus.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Drake",
+    "role": "Schaden,Burst,Unterstützer",
+    "image": "assets/drake.png",
+
+    "builds": [
+   {
+    "name": "Großschwert",
+    "icon": "assets/großschwert.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Stab",
+    "icon": "assets/stab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Elaine",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/elaine.png",
+
+    "builds": [
+   {
+    "name": "Zauberstab",
+    "icon": "assets/zauberstab.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Stab",
+    "icon": "assets/stab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Buch",
+    "icon": "assets/buch.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Escanor",
+    "role": "Schaden",
+    "image": "assets/escanor.png",
+
+    "builds": [
+   {
+    "name": "Axt",
+    "icon": "assets/axt.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Großschwert",
+    "icon": "assets/großschwert.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Schild",
+    "icon": "assets/schild.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Guila",
+    "role": "Schaden,Unterstützer,Burst",
+    "image": "assets/guila.png",
+
+    "builds": [
+   {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Schild",
+    "icon": "assets/schild.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Rapier",
+    "icon": "assets/rapier.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Jericho",
+    "role": "Schaden,Burst,Unterstützer",
+    "image": "assets/jericho.png",
+
+    "builds": [
+   {
+    "name": "Doppelschwerter",
+    "icon": "assets/doppelklingen.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Rapier",
+    "icon": "assets/rapier.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "King",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/king.png",
+
+    "builds": [
+   {
+    "name": "Stab",
+    "icon": "assets/stab.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Buch",
+    "icon": "assets/buch.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Zauberstab",
+    "icon": "assets/zauberstab.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Mannie",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/mannie.png",
+
+    "builds": [
+   {
+    "name": "Stab",
+    "icon": "assets/stab.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Doppelschwerter",
+    "icon": "assets/doppelklingen.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Bug",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/bug.png",
+
+    "builds": [
+   {
+    "name": "Axt",
+    "icon": "assets/axt.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Doppelschwerter",
+    "icon": "assets/doppelklingen.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Buch",
+    "icon": "assets/buch.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Dredrin",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/dredrin.png",
+
+    "builds": [
+   {
+    "name": "Schild",
+    "icon": "assets/schild.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Axt",
+    "icon": "assets/axt.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Rapier",
+    "icon": "assets/rapier.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Dreyfus",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/dreyfus.png",
+
+    "builds": [
+   {
+    "name": "Rapier",
+    "icon": "assets/rapier.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Gilthunder",
+    "role": "Schaden,Burst,Unterstützer",
+    "image": "assets/gilthunder.png",
+
+    "builds": [
+   {
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Schild",
+    "icon": "assets/schild.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Griamore",
+    "role": "Unterstützer",
+    "image": "assets/griamore.png",
+
+    "builds": [
+   {
+    "name": "Schild",
+    "icon": "assets/schild.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Nunchaku",
+    "icon": "assets/nunchakus.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Handschuhe",
+    "icon": "assets/handschuhe.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Hendrickson",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/hendrickson.png",
+
+    "builds": [
+   {
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Doppelschwerter",
+    "icon": "assets/doppelklingen.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Howzer",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/howzer.png",
+
+    "builds": [
+   {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Handschuhe",
+    "icon": "assets/handschuhe.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Nunchaku",
+    "icon": "assets/nunchakus.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Slater",
+    "role": "Schaden,Unterstützer",
+    "image": "assets/slater.png",
+
+    "builds": [
+   {
+    "name": "Großschwert",
+    "icon": "assets/großschwert.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Axt",
+    "icon": "assets/axt.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Nunchaku",
+    "icon": "assets/nunchakus.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ },
+  {
+    "name": "Tristan",
+    "role": "Schaden,Burst",
+    "image": "assets/tristan.png",
+
+    "builds": [
+   {
+    "name": "Doppelschwerter",
+    "icon": "assets/doppelklingen.png",
+
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+  {
+    "name": "Großschwert",
+    "icon": "assets/großschwert.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  },
+ {
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "notes": "-"
+  }
+ ]
+ }
 ]
