@@ -82,18 +82,26 @@ body {
 
 /* TABS */
 .tabs {
+    display: flex;
+    gap: 8px;
     margin-top: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 
 .tab {
-    background: #14110c;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
+
+    background: #14110c;
     border: 1px solid #3a2f1a;
     color: #e7d7a2;
-    padding: 8px 12px;
+
+    padding: 6px 10px;
     cursor: pointer;
+
+    border-radius: 6px;
 }
 
 .tab-icon {
