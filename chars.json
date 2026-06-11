@@ -8,5 +8,100 @@
     "id": "meliodas",
     "name": "Meliodas",
     "image": "assets/meliodas.png"
+  },
+  {
+    "id": "merlin",
+    "name": "Merlin",
+    "image": "assets/merlin.png"
+  },
+  {
+    "id": "clotho",
+    "name": "Clotho",
+    "image": "assets/clotho.png"
+  },
+  {
+    "id": "daisy",
+    "name": "Daisy",
+    "image": "assets/daisy.png"
+  },
+  {
+    "id": "diane",
+    "name": "Diane",
+    "image": "assets/diane.png"
+  },
+  {
+    "id": "elaine",
+    "name": "Elaine",
+    "image": "assets/elaine.png"
+  },
+  {
+    "id": "escanor",
+    "name": "Escanor",
+    "image": "assets/escanor.png"
+  },
+  {
+    "id": "guila",
+    "name": "Guila",
+    "image": "assets/guila.png"
+  },
+  {
+    "id": "jericho",
+    "name": "Jericho",
+    "image": "assets/jericho.png"
+  },
+  {
+    "id": "king",
+    "name": "King",
+    "image": "assets/king.png"
+  },
+  {
+    "id": "mannie",
+    "name": "Mannie",
+    "image": "assets/mannie.png"
+  },
+  {
+    "id": "bug",
+    "name": "Bug",
+    "image": "assets/bug.png"
+  },
+  {
+    "id": "dredrin",
+    "name": "Dredrin",
+    "image": "assets/dredrin.png"
+  },
+  {
+    "id": "dreyfus",
+    "name": "Dreyfus",
+    "image": "assets/dreyfus.png"
+  },
+  {
+    "id": "gilthunder",
+    "name": "Gilthunder",
+    "image": "assets/gilthunder.png"
+  },
+  {
+    "id": "griamore",
+    "name": "Griamore",
+    "image": "assets/griamore.png"
+  },
+  {
+    "id": "hendrickson",
+    "name": "Hendrickson",
+    "image": "assets/hendrickson.png"
+  },
+  {
+    "id": "howzer",
+    "name": "Howzer",
+    "image": "assets/howzer.png"
+  },
+  {
+    "id": "slater",
+    "name": "Slater",
+    "image": "assets/slater.png"
+  },
+    {
+    "id": "tristan",
+    "name": "Tristan",
+    "image": "assets/tristan.png"
   }
 ]
