@@ -83,6 +83,7 @@ body {
 /* TABS */
 .tabs {
     display: flex;
+    justify-content: center;
     gap: 8px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -105,8 +106,8 @@ body {
 }
 
 .tab-icon {
-    width: 14px;
-    height: 14px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
 }
 
