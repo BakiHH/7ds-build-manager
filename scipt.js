@@ -4,50 +4,55 @@ async function init() {
     const res = await fetch("database.json");
     data = await res.json();
 
-    render();
+    renderList();
     load(0);
 
-    search.addEventListener("input", filter);
+    // FIX: search richtig holen
+    document.getElementById("search").addEventListener("input", filter);
 }
 
-function render() {
+function renderList() {
     const list = document.getElementById("list");
+    list.innerHTML = "";
 
-    data.forEach((c,i) => {
-        let d = document.createElement("div");
-        d.innerText = c.name;
-        d.onclick = () => load(i);
-        list.appendChild(d);
+    data.forEach((c, i) => {
+        let div = document.createElement("div");
+        div.innerText = c.name;
+
+        div.onclick = () => load(i);
+
+        list.appendChild(div);
     });
 }
 
 function load(i) {
     const c = data[i];
 
-    img.src = c.image;
-    name.innerText = c.name;
-    role.innerText = c.role;
+    document.getElementById("img").src = c.image;
+    document.getElementById("name").innerText = c.name;
+    document.getElementById("role").innerText = c.role;
 
-    engraved.innerText = c.engraved;
-    chest.innerText = c.chest;
-    legs.innerText = c.legs;
-    boots.innerText = c.boots;
-    belt.innerText = c.belt;
+    document.getElementById("engraved").innerText = c.engraved;
+    document.getElementById("chest").innerText = c.chest;
+    document.getElementById("legs").innerText = c.legs;
+    document.getElementById("boots").innerText = c.boots;
+    document.getElementById("belt").innerText = c.belt;
 
-    earrings.innerText = c.earrings;
-    necklace.innerText = c.necklace;
-    ring.innerText = c.ring;
+    document.getElementById("earrings").innerText = c.earrings;
+    document.getElementById("necklace").innerText = c.necklace;
+    document.getElementById("ring").innerText = c.ring;
 
-    notes.innerText = c.notes;
+    document.getElementById("notes").innerText = c.notes;
 }
 
-function filter() {
-    const v = search.value.toLowerCase();
+function filter(e) {
+    const val = e.target.value.toLowerCase();
 
     document.querySelectorAll("#list div").forEach(el => {
-        el.style.display = el.innerText.toLowerCase().includes(v)
-            ? "block"
-            : "none";
+        el.style.display =
+            el.innerText.toLowerCase().includes(val)
+                ? "block"
+                : "none";
     });
 }
 
