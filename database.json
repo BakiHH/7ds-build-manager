@@ -4,33 +4,34 @@
     "role": "Support / Healer",
     "image": "assets/tioreh.png",
 
-    "engraved": "Casual Outing Set (Healing + Buff)",
-    "chest": "Heilungs-Boost Brust",
-    "legs": "Defensive Beine",
-    "boots": "Cooldown / Speed Boots",
-    "belt": "HP / Defense Gürtel",
+    "engraved": "Casual Outing Set",
+    "chest": "Healing Brust",
+    "legs": "Defense Beine",
+    "boots": "Cooldown Boots",
+    "belt": "HP Gürtel",
+
     "earrings": "Healing Efficiency",
     "necklace": "Buff Duration",
     "ring": "Magic Charge",
 
-    "notes": "Starker Support für lange Bosskämpfe mit Sustain und Buffs."
+    "notes": "Top Support für lange Bosskämpfe mit Heal + Buff Sustain."
   },
 
   {
     "name": "Meliodas",
     "role": "DPS / Burst",
-
     "image": "assets/meliodas.png",
 
-    "engraved": "Ein neues Abenteuer (DPS Fokus)",
-    "chest": "Crit Damage Brust",
-    "legs": "Normal Skill Damage Beine",
-    "boots": "Attack Speed Boots",
-    "belt": "Attack Gürtel",
+    "engraved": "DPS Crit Set",
+    "chest": "Crit Damage",
+    "legs": "Normal Skill Damage",
+    "boots": "Attack Speed",
+    "belt": "Attack",
+
     "earrings": "Crit Rate",
     "necklace": "Crit Damage",
-    "ring": "Attack / Ultimate",
+    "ring": "Ultimate Damage",
 
-    "notes": "Extrem hoher Burst-DPS Charakter für schnelle Kills."
+    "notes": "Extrem hoher Burst DPS für schnelle Kills."
   }
 ]

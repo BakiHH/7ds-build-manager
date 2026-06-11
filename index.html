@@ -2,69 +2,49 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>Build Wiki</title>
+<title>7DS Origin Wiki</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+<div class="bg"></div>
 
 <div class="app">
 
 <!-- SIDEBAR -->
 <div class="sidebar">
 
-    <div class="logo">
-        ⚜️ 7DS Wiki
-    </div>
+    <div class="logo">⚜ 7DS ORIGIN WIKI</div>
 
     <input id="search" placeholder="Charakter suchen...">
 
-    <div id="charList" class="list"></div>
+    <div id="list"></div>
 
 </div>
 
 <!-- MAIN -->
 <div class="main">
 
-    <!-- TOP BAR -->
-    <div class="topbar">
-        <div class="tabs">
-            <button class="tab active">Ausrüstung</button>
-            <button class="tab">Charakter</button>
-            <button class="tab">Build</button>
-        </div>
-    </div>
-
-    <!-- HEADER -->
     <div class="header">
-
-        <img id="charImg">
-
+        <img id="img">
         <div>
-            <h1 id="charName"></h1>
-            <p id="charRole"></p>
+            <h1 id="name"></h1>
+            <p id="role"></p>
         </div>
-
     </div>
 
-    <!-- FILTER BAR -->
-    <div class="filterbar">
-
-        <input placeholder="Waffe / Rüstung suchen...">
-
-        <div class="filters">
-            <span>SSR</span>
-            <span>SR</span>
-            <span>R</span>
-            <span>C</span>
-        </div>
-
+    <!-- TABS -->
+    <div class="tabs">
+        <button class="tab active">Ausrüstung</button>
+        <button class="tab">Build</button>
+        <button class="tab">Info</button>
     </div>
 
     <!-- GRID -->
     <div class="grid">
 
-        <div class="card">
+        <div class="card glow">
             <h3>🎯 Gravierte Rüstung</h3>
             <p id="engraved"></p>
         </div>
@@ -91,9 +71,14 @@
 
         <div class="card">
             <h3>💍 Schmuck</h3>
-            <p id="earrings"></p>
-            <p id="necklace"></p>
-            <p id="ring"></p>
+            <p>Ohrringe: <span id="earrings"></span></p>
+            <p>Halskette: <span id="necklace"></span></p>
+            <p>Ring: <span id="ring"></span></p>
+        </div>
+
+        <div class="card full">
+            <h3>📜 Beschreibung</h3>
+            <p id="notes"></p>
         </div>
 
     </div>

@@ -11,11 +11,10 @@ async function init() {
 }
 
 function render() {
-    const list = document.getElementById("charList");
+    const list = document.getElementById("list");
 
     data.forEach((c,i) => {
         let d = document.createElement("div");
-        d.className = "char-btn";
         d.innerText = c.name;
         d.onclick = () => load(i);
         list.appendChild(d);
@@ -25,9 +24,9 @@ function render() {
 function load(i) {
     const c = data[i];
 
-    charImg.src = c.image;
-    charName.innerText = c.name;
-    charRole.innerText = c.role;
+    img.src = c.image;
+    name.innerText = c.name;
+    role.innerText = c.role;
 
     engraved.innerText = c.engraved;
     chest.innerText = c.chest;
@@ -38,14 +37,17 @@ function load(i) {
     earrings.innerText = c.earrings;
     necklace.innerText = c.necklace;
     ring.innerText = c.ring;
+
+    notes.innerText = c.notes;
 }
 
 function filter() {
-    const val = search.value.toLowerCase();
+    const v = search.value.toLowerCase();
 
-    document.querySelectorAll(".char-btn").forEach(b => {
-        b.style.display =
-            b.innerText.toLowerCase().includes(val) ? "" : "none";
+    document.querySelectorAll("#list div").forEach(el => {
+        el.style.display = el.innerText.toLowerCase().includes(v)
+            ? "block"
+            : "none";
     });
 }
 
