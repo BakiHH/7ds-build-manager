@@ -17,7 +17,7 @@ function renderList() {
 
     data.forEach((c, i) => {
         let div = document.createElement("div");
-
+        
 div.className = "character-item";
 
 div.innerHTML = `

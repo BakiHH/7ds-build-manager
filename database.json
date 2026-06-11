@@ -62,8 +62,8 @@
 
     "builds": [
    {
-    "name": "Buch",
-    "icon": "assets/buch.png",
+    "name": "Langschwert",
+    "icon": "assets/langschwert.png",
 
     "engraved": "-",
     "chest": "-",
@@ -78,8 +78,8 @@
     "notes": "-"
   },
   {
-    "name": "Zauberstab",
-    "icon": "assets/zauberstab.png",
+    "name": "Axt",
+    "icon": "assets/axt.png",
     
     "engraved": "Beginn des Abenteuers",
     "chest": "Lebenskristall",
@@ -94,8 +94,8 @@
     "notes": "Top Support für lange Bosskämpfe mit Heal + Buff Sustain."
   },
  {
-    "name": "Stab",
-    "icon": "assets/stab.png",
+    "name": "Doppelschwerter",
+    "icon": "assets/doppelklingen.png",
     
     "engraved": "-",
     "chest": "-",
