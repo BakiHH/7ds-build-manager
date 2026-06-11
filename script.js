@@ -17,7 +17,13 @@ function renderList() {
 
     data.forEach((c, i) => {
         let div = document.createElement("div");
-        div.innerText = c.name;
+
+div.className = "character-item";
+
+div.innerHTML = `
+    <img src="${c.image}" class="character-icon">
+    <span>${c.name}</span>
+`;
 
         div.onclick = () => load(i);
 

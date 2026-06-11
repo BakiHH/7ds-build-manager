@@ -44,13 +44,40 @@ body {
 }
 
 /* LIST */
-#list div {
+.character-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
     padding: 10px;
     margin-top: 5px;
+
     background: #14110c;
     border: 1px solid #2a2114;
+
     cursor: pointer;
     transition: 0.2s;
+}
+
+.character-item:hover {
+    background: #2a2114;
+    transform: translateX(5px);
+}
+
+.character-icon {
+    width: 48px;
+    height: 48px;
+
+    object-fit: cover;
+    border-radius: 8px;
+
+    border: 1px solid #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.3);
+}
+
+.character-item span {
+    color: #e7d7a2;
+    font-weight: 500;
 }
 
 #list div:hover {
@@ -75,8 +102,8 @@ body {
 }
 
 .header img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 10px;
 }
 
