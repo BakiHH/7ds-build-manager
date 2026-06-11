@@ -87,10 +87,19 @@ body {
 
 .tab {
     background: #14110c;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     border: 1px solid #3a2f1a;
     color: #e7d7a2;
     padding: 8px 12px;
     cursor: pointer;
+}
+
+.tab-icon {
+    width: 8px;
+    height: 8px;
+    object-fit: contain;
 }
 
 .tab.active {
