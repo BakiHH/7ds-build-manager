@@ -25,6 +25,20 @@ function renderList() {
     });
 }
 
+function loadBuild(build) {
+    document.getElementById("engraved").innerText = build.engraved;
+    document.getElementById("chest").innerText = build.chest;
+    document.getElementById("legs").innerText = build.legs;
+    document.getElementById("boots").innerText = build.boots;
+    document.getElementById("belt").innerText = build.belt;
+
+    document.getElementById("earrings").innerText = build.earrings;
+    document.getElementById("necklace").innerText = build.necklace;
+    document.getElementById("ring").innerText = build.ring;
+
+    document.getElementById("notes").innerText = build.notes;
+}
+
 function load(i) {
     const c = data[i];
 
@@ -32,17 +46,36 @@ function load(i) {
     document.getElementById("name").innerText = c.name;
     document.getElementById("role").innerText = c.role;
 
-    document.getElementById("engraved").innerText = c.engraved;
-    document.getElementById("chest").innerText = c.chest;
-    document.getElementById("legs").innerText = c.legs;
-    document.getElementById("boots").innerText = c.boots;
-    document.getElementById("belt").innerText = c.belt;
+    const tabs = document.getElementById("tabs");
+    tabs.innerHTML = "";
 
-    document.getElementById("earrings").innerText = c.earrings;
-    document.getElementById("necklace").innerText = c.necklace;
-    document.getElementById("ring").innerText = c.ring;
+    c.builds.forEach((build, index) => {
+        const btn = document.createElement("button");
 
-    document.getElementById("notes").innerText = c.notes;
+        btn.className = "tab";
+
+        btn.innerHTML = `
+            <img src="${build.icon}" class="tab-icon">
+            ${build.name}
+        `;
+
+        btn.onclick = () => {
+            document
+                .querySelectorAll(".tab")
+                .forEach(t => t.classList.remove("active"));
+
+            btn.classList.add("active");
+
+            loadBuild(build);
+        };
+
+        tabs.appendChild(btn);
+
+        if (index === 0) {
+            btn.classList.add("active");
+            loadBuild(build);
+        }
+    });
 }
 
 function filter(e) {
