@@ -4,26 +4,25 @@ async function init() {
     const res = await fetch("database.json");
     data = await res.json();
 
-    renderList();
-    loadChar(0);
+    render();
+    load(0);
 
     search.addEventListener("input", filter);
 }
 
-function renderList() {
+function render() {
     const list = document.getElementById("charList");
-    list.innerHTML = "";
 
-    data.forEach((c, i) => {
-        let div = document.createElement("div");
-        div.className = "char-btn";
-        div.innerText = c.name;
-        div.onclick = () => loadChar(i);
-        list.appendChild(div);
+    data.forEach((c,i) => {
+        let d = document.createElement("div");
+        d.className = "char-btn";
+        d.innerText = c.name;
+        d.onclick = () => load(i);
+        list.appendChild(d);
     });
 }
 
-function loadChar(i) {
+function load(i) {
     const c = data[i];
 
     charImg.src = c.image;
@@ -35,19 +34,18 @@ function loadChar(i) {
     legs.innerText = c.legs;
     boots.innerText = c.boots;
     belt.innerText = c.belt;
+
     earrings.innerText = c.earrings;
     necklace.innerText = c.necklace;
     ring.innerText = c.ring;
-
-    notes.innerText = c.notes;
 }
 
 function filter() {
     const val = search.value.toLowerCase();
 
-    document.querySelectorAll(".char-btn").forEach(btn => {
-        btn.style.display =
-            btn.innerText.toLowerCase().includes(val) ? "" : "none";
+    document.querySelectorAll(".char-btn").forEach(b => {
+        b.style.display =
+            b.innerText.toLowerCase().includes(val) ? "" : "none";
     });
 }
 
