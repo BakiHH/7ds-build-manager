@@ -1,31 +1,58 @@
 let data = [];
+let searchInput;
+let elementFilters;
+let roleFilters;
 
 async function init() {
     const res = await fetch("database.json");
     data = await res.json();
 
+    searchInput = document.getElementById("search");
+    elementFilter = document.getElementById("elementFilter");
+    roleFilter = document.getElementById("roleFilter");
+
+    searchInput.addEventListener("input", renderList);
+    elementFilter.addEventListener("change", renderList);
+    roleFilter.addEventListener("change", renderList);
+
+
     renderList();
     load(0);
-
-    // FIX: search richtig holen
-    document.getElementById("search").addEventListener("input", filter);
 }
 
 function renderList() {
     const list = document.getElementById("list");
     list.innerHTML = "";
 
-    data.forEach((c, i) => {
+    const searchValue = document.getElementById("search").value.toLowerCase();
+    const selectedElement = document.getElementById("elementFilter").value;
+    const selectedRole = document.getElementById("roleFilter").value;
+
+    const filtered = data.filter((c) => {
+
+        const matchesSearch =
+            c.name.toLowerCase().includes(searchValue);
+
+        const matchesElement =
+            !selectedElement || c.elements.includes(selectedElement);
+
+        const matchesRole =
+            !selectedRole || c.roles.includes(selectedRole);
+
+        return matchesSearch && matchesElement && matchesRole;
+    });
+
+    filtered.forEach((c) => {
+
         let div = document.createElement("div");
-        
-div.className = "character-item";
+        div.className = "character-item";
 
-div.innerHTML = `
-    <img src="${c.image}" class="character-icon">
-    <span>${c.name}</span>
-`;
+        div.innerHTML = `
+            <img src="${c.image}" class="character-icon">
+            <span>${c.name}</span>
+        `;
 
-        div.onclick = () => load(i);
+        div.onclick = () => load(data.indexOf(c));
 
         list.appendChild(div);
     });
