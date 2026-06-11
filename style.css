@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #12121c;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f2e;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left-panel {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left-panel img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #1f1f2e;
+    padding: 15px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+input, textarea, select {
+    background: #2e2e45;
+    color: white;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    background: #4b6cff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #6c87ff;
+}
+
+.save-btn {
+    width: 100%;
+    margin-top: 20px;
+}
