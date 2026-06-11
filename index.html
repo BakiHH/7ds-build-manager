@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>7DS Origin Build Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Seven Deadly Sins Origin – Build Manager</h1>
+</header>
+
+<div class="container">
+
+    <div class="left-panel">
+        <img id="characterImage" src="assets/placeholder.png" alt="Character">
+        
+        <select id="characterSelect"></select>
+
+        <button onclick="exportBuild()">Build Exportieren</button>
+        <input type="file" id="importFile" hidden>
+        <button onclick="document.getElementById('importFile').click()">Build Importieren</button>
+    </div>
+
+    <div class="right-panel">
+
+        <div class="card">
+            <h2>Allgemein</h2>
+            <input type="text" id="role" placeholder="Rolle (DPS, Support...)">
+        </div>
+
+        <div class="card">
+            <h2>Waffen</h2>
+            <input type="text" id="mainWeapon" placeholder="Main Weapon">
+            <input type="text" id="subWeapon" placeholder="Secondary Weapon">
+        </div>
+
+        <div class="card">
+            <h2>Rüstung</h2>
+            <input type="text" id="chest" placeholder="Brust">
+            <input type="text" id="legs" placeholder="Beine">
+            <input type="text" id="boots" placeholder="Schuhe">
+            <input type="text" id="belt" placeholder="Gürtel">
+        </div>
+
+        <div class="card">
+            <h2>Schmuck</h2>
+            <input type="text" id="earrings" placeholder="Ohrringe">
+            <input type="text" id="necklace" placeholder="Halskette">
+            <input type="text" id="ring" placeholder="Ring">
+        </div>
+
+        <div class="card">
+            <h2>Notizen / Rotation</h2>
+            <textarea id="notes"></textarea>
+        </div>
+
+        <button class="save-btn" onclick="saveBuild()">Speichern</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
