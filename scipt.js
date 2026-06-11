@@ -1,30 +1,37 @@
 let characters = [];
 
-async function loadCharacters() {
-    const response = await fetch("characters.json");
-    characters = await response.json();
+async function init() {
+    const res = await fetch("characters.json");
+    characters = await res.json();
 
     const select = document.getElementById("characterSelect");
 
-    characters.forEach(char => {
-        const option = document.createElement("option");
-        option.value = char.id;
-        option.textContent = char.name;
-        select.appendChild(option);
+    characters.forEach(c => {
+        let opt = document.createElement("option");
+        opt.value = c.id;
+        opt.textContent = c.name;
+        select.appendChild(opt);
     });
 
     select.addEventListener("change", loadBuild);
+    document.getElementById("search").addEventListener("input", filterChars);
+
     loadBuild();
 }
 
-function getCurrentCharacter() {
+function getChar() {
     return document.getElementById("characterSelect").value;
 }
 
 function saveBuild() {
-    const character = getCurrentCharacter();
+    let data = collect();
 
-    const build = {
+    localStorage.setItem(getChar(), JSON.stringify(data));
+    updateScore();
+}
+
+function collect() {
+    return {
         role: role.value,
         mainWeapon: mainWeapon.value,
         subWeapon: subWeapon.value,
@@ -37,55 +44,73 @@ function saveBuild() {
         ring: ring.value,
         notes: notes.value
     };
-
-    localStorage.setItem(character, JSON.stringify(build));
-    alert("Build gespeichert!");
 }
 
 function loadBuild() {
-    const character = getCurrentCharacter();
-    const data = localStorage.getItem(character);
+    let data = localStorage.getItem(getChar());
 
-    const charData = characters.find(c => c.id === character);
-    document.getElementById("characterImage").src = charData.image;
+    let char = characters.find(c => c.id === getChar());
+    document.getElementById("characterImage").src = char.image;
 
-    if (!data) {
-        document.querySelectorAll("input, textarea").forEach(e => e.value = "");
-        return;
-    }
+    if (!data) return;
 
-    const build = JSON.parse(data);
+    let b = JSON.parse(data);
 
-    Object.keys(build).forEach(key => {
-        if (document.getElementById(key)) {
-            document.getElementById(key).value = build[key];
+    Object.keys(b).forEach(k => {
+        if (document.getElementById(k)) {
+            document.getElementById(k).value = b[k];
         }
     });
+
+    updateScore();
+}
+
+function updateScore() {
+    let b = collect();
+
+    let score =
+        (b.mainWeapon?.length || 0) +
+        (b.subWeapon?.length || 0) +
+        (b.chest?.length || 0) +
+        (b.legs?.length || 0) +
+        (b.boots?.length || 0) +
+        (b.belt?.length || 0) +
+        (b.earrings?.length || 0) +
+        (b.necklace?.length || 0) +
+        (b.ring?.length || 0);
+
+    document.getElementById("score").innerText = score;
 }
 
 function exportBuild() {
-    const character = getCurrentCharacter();
-    const data = localStorage.getItem(character);
-    if (!data) return alert("Kein Build gespeichert.");
+    let data = JSON.stringify(collect());
+    let blob = new Blob([data], {type:"application/json"});
+    let a = document.createElement("a");
 
-    const blob = new Blob([data], { type: "application/json" });
-    const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = character + "_build.json";
+    a.download = getChar() + "_build.json";
     a.click();
 }
 
-document.getElementById("importFile")?.addEventListener("change", function(e) {
-    const file = e.target.files[0];
-    if (!file) return;
+document.getElementById("importFile").addEventListener("change", e => {
+    let file = e.target.files[0];
 
-    const reader = new FileReader();
-    reader.onload = function(event) {
-        const character = getCurrentCharacter();
-        localStorage.setItem(character, event.target.result);
+    let reader = new FileReader();
+    reader.onload = function(ev) {
+        localStorage.setItem(getChar(), ev.target.result);
         loadBuild();
     };
+
     reader.readAsText(file);
 });
 
-window.onload = loadCharacters;
+function filterChars() {
+    let val = search.value.toLowerCase();
+    let select = characterSelect;
+
+    [...select.options].forEach(o => {
+        o.style.display = o.text.toLowerCase().includes(val) ? "" : "none";
+    });
+}
+
+window.onload = init;
