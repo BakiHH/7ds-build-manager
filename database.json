@@ -1,7 +1,8 @@
 [
   {
     "name": "Tioreh",
-    "role": "Unterstützer",
+    "role": ["Unterstützer"],
+    "element": ["Feuer","Erde"],
     "image": "assets/tioreh.png",
 
     "builds": [
