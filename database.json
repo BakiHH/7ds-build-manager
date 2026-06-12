@@ -1181,7 +1181,7 @@
     "builds": [
    {
     "name": "Schild",
-    "icon": ["assets/schild.png","assets/pysisch.png"],
+    "icon": ["assets/schild.png","assets/physisch.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1201,7 +1201,7 @@
   },
   {
     "name": "Nunchaku",
-    "icon": ["assets/nunchakus.png","assets/pysisch.png"],
+    "icon": ["assets/nunchakus.png","assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1221,7 +1221,7 @@
   },
  {
     "name": "Handschuhe",
-    "icon": ["assets/handschuhe.png","assets/pysisch.png"],
+    "icon": ["assets/handschuhe.png","assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
