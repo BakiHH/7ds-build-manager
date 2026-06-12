@@ -59,6 +59,7 @@
   {
     "name": "Meliodas",
     "roles": ["Schaden"],
+    "elements": ["Schatten"],
     "image": "assets/meliodas.png",
 
     "builds": [
