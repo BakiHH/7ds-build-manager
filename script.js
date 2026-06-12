@@ -168,4 +168,12 @@ lightbox.addEventListener("click", () => {
     lightbox.classList.add("hidden");
 });
 
+// Schließen mit ESC
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        lightbox.classList.add("hidden");
+    }
+});
+
+
 window.onload = init;
