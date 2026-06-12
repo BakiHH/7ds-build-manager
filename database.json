@@ -58,7 +58,7 @@
 },
   {
     "name": "Meliodas",
-    "role": ["Schaden"],
+    "roles": ["Schaden"],
     "image": "assets/meliodas.png",
 
     "builds": [
@@ -114,7 +114,7 @@
  },
   {
     "name": "Merlin",
-    "role": "Schaden,Burst",
+    "roles": "Schaden,Burst",
     "image": "assets/merlin.png",
 
     "builds": [
