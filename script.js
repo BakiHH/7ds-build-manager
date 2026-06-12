@@ -84,6 +84,17 @@ function loadBuild(build) {
     document.getElementById("ring").innerText = build.ring;
 
     document.getElementById("notes").innerText = build.notes;
+
+    const gallery = document.getElementById("gallery");
+
+// WICHTIG: immer überschreiben (nicht anhängen!)
+gallery.innerHTML = "";
+
+if (build.images && build.images.length > 0) {
+    gallery.innerHTML = build.images
+        .map(img => `<img src="${img}" class="gallery-img">`)
+        .join("");
+}
 }
 
 function load(c) {
