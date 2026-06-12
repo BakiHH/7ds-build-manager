@@ -1,7 +1,10 @@
 let data = [];
+
 let searchInput;
 let elementFilter;
 let roleFilter;
+let list;
+let activeCharacter = null;
 
 async function init() {
     const res = await fetch("database.json");
@@ -10,19 +13,20 @@ async function init() {
     searchInput = document.getElementById("search");
     elementFilter = document.getElementById("elementFilter");
     roleFilter = document.getElementById("roleFilter");
+    list = document.getElementById("list");
 
     searchInput.addEventListener("input", renderList);
     elementFilter.addEventListener("change", renderList);
     roleFilter.addEventListener("change", renderList);
 
 
-    renderList();
-    load(0);
+    if (data.length > 0) {
+        load(data[0]);
+    }
 }
 
 function renderList() {
-    const list = document.getElementById("list");
-    list.innerHTML = "";
+  list.innerHTML = "";
 
 const searchValue = searchInput.value.toLowerCase();
 const selectedElement = elementFilter.value;
@@ -41,10 +45,11 @@ const selectedRole = roleFilter.value;
 
         return matchesSearch && matchesElement && matchesRole;
     });
+    
+    const fragment = document.createDocumentFragment();
 
-    filtered.forEach((c) => {
-
-        let div = document.createElement("div");
+filtered.forEach(c => {
+        const div = document.createElement("div");
         div.className = "character-item";
 
         div.innerHTML = `
@@ -52,10 +57,16 @@ const selectedRole = roleFilter.value;
             <span>${c.name}</span>
         `;
 
-       div.onclick = () => load(c);
+div.addEventListener("click", () => {
+    activeCharacter = c;
+    load(c);
+    renderList();
+});
 
-        list.appendChild(div);
+        fragment.appendChild(div);
     });
+
+    list.appendChild(fragment);
 }
 
 function loadBuild(build) {
@@ -73,18 +84,15 @@ function loadBuild(build) {
 }
 
 function load(c) {
-   
-
     document.getElementById("img").src = c.image;
     document.getElementById("name").innerText = c.name;
-    document.getElementById("role").innerText = c.role;
-
-    const tabs = document.getElementById("tabs");
-    tabs.innerHTML = "";
+    document.getElementById("role").innerText = c.roles.join(", ");
+    document.getElementById("tabs").innerHTML = "";
 
     c.builds.forEach((build, index) => {
-        const btn = document.createElement("button");
 
+
+        const btn = document.createElement("button");
         btn.className = "tab";
 
         btn.innerHTML = `
@@ -92,17 +100,16 @@ function load(c) {
             ${build.name}
         `;
 
-        btn.onclick = () => {
-            document
-                .querySelectorAll(".tab")
+        btn.addEventListener("click", () => {
+
+            document.querySelectorAll(".tab")
                 .forEach(t => t.classList.remove("active"));
 
             btn.classList.add("active");
-
             loadBuild(build);
-        };
+        });
 
-        tabs.appendChild(btn);
+        document.getElementById("tabs").appendChild(btn);
 
         if (index === 0) {
             btn.classList.add("active");
