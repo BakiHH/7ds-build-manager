@@ -17,6 +17,9 @@ body {
 /* APP */
 .app {
     display: flex;
+    width: 1400;
+    max-width: 95%;
+    margin: 0 auto;
     height: 100vh;
 }
 
