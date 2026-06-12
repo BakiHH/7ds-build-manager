@@ -79,6 +79,12 @@ body {
     color: #e7d7a2;
     font-weight: 500;
 }
+.character-item.active {
+    background: #2a2114;
+    border-left: 3px solid #d4af37;
+    box-shadow: 0 0 10px rgba(212,175,55,0.2);
+    transform: translateX(5px);
+}
 
 #list div:hover {
     background: #2a2114;
@@ -169,10 +175,4 @@ body {
 
 .glow {
     box-shadow: 0 0 15px rgba(212,175,55,0.2);
-}
-.character-item.active {
-    background: #2a2114;
-    border-left: 3px solid #d4af37;
-    box-shadow: 0 0 10px rgba(212,175,55,0.2);
-    transform: translateX(5px);
 }
