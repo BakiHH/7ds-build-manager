@@ -29,7 +29,7 @@
   },
   {
     "name": "Zauberstab",
-    "icon": "assets/zauberstab.png",
+    "icon": ["assets/zauberstab.png","assets/feuer.png"],
 
     "images": [
     "assets/tioreh1.png",
@@ -54,7 +54,7 @@
   },
  {
     "name": "Stab",
-    "icon": "assets/stab.png",
+    "icon": ["assets/stab.png","assets/erde.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -83,7 +83,7 @@
     "builds": [
    {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+    "icon": ["assets/langschwert.png","assets/schatten.png"],
 
    "mainweapon": "-",
     "offhandweapon": "-",
@@ -103,7 +103,7 @@
   },
   {
     "name": "Axt",
-    "icon": "assets/axt.png",
+    "icon": ["assets/axt.png","assets/schatten.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -123,7 +123,7 @@
   },
  {
     "name": "Doppelschwerter",
-    "icon": "assets/doppelklingen.png",
+    "icon": ["assets/doppelklingen.png","assets/schatten.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -152,7 +152,7 @@
     "builds": [
    {
     "name": "Buch",
-    "icon": "assets/buch.png",
+    "icon": ["assets/buch.png", "assets/eis.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -172,7 +172,7 @@
   },
   {
     "name": "Zauberstab",
-    "icon": "assets/zauberstab.png",
+    "icon": ["assets/zauberstab.png","assets/blitz.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -192,7 +192,7 @@
   },
  {
     "name": "Stab",
-    "icon": "assets/stab.png",
+    "icon": ["assets/stab.png","assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -221,7 +221,7 @@
     "builds": [
    {
     "name": "Rapier",
-    "icon": "assets/rapier.png",
+    "icon": ["assets/rapier.png","assets/wind.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Buch",
-    "icon": "assets/buch.png",
+    "icon": ["assets/buch.png", "assets/eis.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -261,7 +261,7 @@
   },
  {
     "name": "Stab",
-    "icon": "assets/stab.png",
+    "icon": ["assets/stab.png","assets/wind.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -290,7 +290,7 @@
     "builds": [
    {
     "name": "Schild",
-    "icon": "assets/schild.png",
+    "icon": ["assets/schild.png","assets/erde.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -310,7 +310,7 @@
   },
   {
     "name": "Buch",
-    "icon": "assets/buch.png",
+    "icon": ["assets/buch.png", "assets/blitz.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -330,7 +330,7 @@
   },
  {
     "name": "Zauberstab",
-    "icon": "assets/zauberstab.png",
+    "icon": ["assets/zauberstab.png","assets/wind.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -359,7 +359,7 @@
     "builds": [
    {
     "name": "Axt",
-    "icon": "assets/axt.png",
+    "icon": ["assets/axt.png","assets/erde.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -379,7 +379,7 @@
   },
   {
     "name": "Handschuhe",
-    "icon": "assets/handschuhe.png",
+        "icon": ["assets/handschuhe.png","assets/erde.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -399,7 +399,7 @@
   },
  {
     "name": "Nunchaku",
-    "icon": "assets/nunchakus.png",
+        "icon": ["assets/nunchakus.png","assets/erde.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -428,7 +428,7 @@
     "builds": [
    {
     "name": "Großschwert",
-    "icon": "assets/großschwert.png",
+    "icon":["assets/großschwert.png","assets/blitz.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -448,7 +448,7 @@
   },
   {
     "name": "Stab",
-    "icon": "assets/stab.png",
+    "icon": ["assets/stab.png","assets/blitz.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -468,7 +468,7 @@
   },
  {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+    "icon": ["assets/langschwert.png","assets/blitz.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -497,7 +497,7 @@
     "builds": [
    {
     "name": "Zauberstab",
-    "icon": "assets/zauberstab.png",
+    "icon": ["assets/zauberstab.png","assets/wind.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -517,7 +517,7 @@
   },
   {
     "name": "Stab",
-    "icon": "assets/stab.png",
+    "icon": ["assets/stab.png","assets/heilig.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -537,7 +537,7 @@
   },
  {
     "name": "Buch",
-    "icon": "assets/buch.png",
+    "icon": ["assets/buch.png", "assets/erde.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -566,7 +566,7 @@
     "builds": [
    {
     "name": "Axt",
-    "icon": "assets/axt.png",
+    "icon": ["assets/axt.png","assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -586,7 +586,7 @@
   },
   {
     "name": "Großschwert",
-    "icon": "assets/großschwert.png",
+    "icon": ["assets/großschwert.png","assets/heilig.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -605,7 +605,7 @@
   },
  {
     "name": "Schild",
-    "icon": "assets/schild.png",
+        "icon": ["assets/schild.png","assets/feuer.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -634,7 +634,7 @@
     "builds": [
    {
     "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "icon": ["assets/lanze.png","assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -654,7 +654,7 @@
   },
   {
     "name": "Schild",
-    "icon": "assets/schild.png",
+    "icon": ["assets/schild.png","assets/feuer.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -673,7 +673,7 @@
   },
  {
     "name": "Rapier",
-    "icon": "assets/rapier.png",
+        "icon": ["assets/rapier.png","assets/feuer.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -702,7 +702,7 @@
     "builds": [
    {
     "name": "Doppelschwerter",
-    "icon": "assets/doppelklingen.png",
+    "icon": ["assets/doppelklingen.png","assets/eis.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -721,7 +721,7 @@
   },
   {
     "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "icon": ["assets/lanze.png","assets/eis.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -740,7 +740,7 @@
   },
  {
     "name": "Rapier",
-    "icon": "assets/rapier.png",
+        "icon": ["assets/rapier.png","assets/eis.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -768,7 +768,7 @@
     "builds": [
    {
     "name": "Stab",
-    "icon": "assets/stab.png",
+        "icon": ["assets/stab.png","assets/heilig.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -788,7 +788,7 @@
   },
   {
     "name": "Buch",
-    "icon": "assets/buch.png",
+        "icon": ["assets/buch.png", "assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -808,7 +808,7 @@
   },
  {
     "name": "Zauberstab",
-    "icon": "assets/zauberstab.png",
+    "icon": ["assets/zauberstab.png","assets/erde.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -837,7 +837,7 @@
     "builds": [
    {
     "name": "Stab",
-    "icon": "assets/stab.png",
+    "icon": ["assets/stab.png","assets/heilig.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -857,7 +857,7 @@
   },
   {
     "name": "Doppelschwerter",
-    "icon": "assets/doppelklingen.png",
+        "icon": ["assets/doppelklingen.png","assets/eis.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -877,7 +877,7 @@
   },
  {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+    "icon": ["assets/langschwert.png","assets/eis.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -906,7 +906,7 @@
     "builds": [
    {
     "name": "Axt",
-    "icon": "assets/axt.png",
+        "icon": ["assets/axt.png","assets/schatten.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -925,7 +925,7 @@
   },
   {
     "name": "Doppelschwerter",
-    "icon": "assets/doppelklingen.png",
+        "icon": ["assets/doppelklingen.png","assets/schatten.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -945,7 +945,7 @@
   },
  {
     "name": "Buch",
-    "icon": "assets/buch.png",
+        "icon": ["assets/buch.png", "assets/schatten.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -974,7 +974,7 @@
     "builds": [
    {
     "name": "Schild",
-    "icon": "assets/schild.png",
+    "icon": ["assets/schild.png","assets/erde.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -994,7 +994,7 @@
   },
   {
     "name": "Axt",
-    "icon": "assets/axt.png",
+    "icon": ["assets/axt.png","assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1014,7 +1014,7 @@
   },
  {
     "name": "Rapier",
-    "icon": "assets/rapier.png",
+    "icon": ["assets/rapier.png","assets/heilig.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1043,7 +1043,7 @@
     "builds": [
    {
     "name": "Rapier",
-    "icon": "assets/rapier.png",
+    "icon": ["assets/rapier.png","assets/physisch.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1063,7 +1063,7 @@
   },
   {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+    "icon": ["assets/langschwert.png","assets/erde.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1083,7 +1083,7 @@
   },
  {
     "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "icon": ["assets/lanze.png","assets/heilig.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1112,7 +1112,7 @@
     "builds": [
    {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+        "icon": ["assets/langschwert.png","assets/blitz.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1132,7 +1132,7 @@
   },
   {
     "name": "Schild",
-    "icon": "assets/schild.png",
+    "icon": ["assets/schild.png","assets/blitz.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1152,7 +1152,7 @@
   },
  {
     "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "icon": ["assets/lanze.png","assets/blitz.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1181,7 +1181,7 @@
     "builds": [
    {
     "name": "Schild",
-    "icon": "assets/schild.png",
+    "icon": ["assets/schild.png","assets/pysisch.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1201,7 +1201,7 @@
   },
   {
     "name": "Nunchaku",
-    "icon": "assets/nunchakus.png",
+    "icon": ["assets/nunchakus.png","assets/pysisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1221,7 +1221,7 @@
   },
  {
     "name": "Handschuhe",
-    "icon": "assets/handschuhe.png",
+    "icon": ["assets/handschuhe.png","assets/pysisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1250,7 +1250,7 @@
     "builds": [
    {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+    "icon": ["assets/langschwert.png","assets/heilig.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1270,7 +1270,7 @@
   },
   {
     "name": "Doppelschwerter",
-    "icon": "assets/doppelklingen.png",
+    "icon": ["assets/doppelklingen.png","assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1290,7 +1290,7 @@
   },
  {
     "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "icon": ["assets/lanze.png","assets/schatten.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1319,7 +1319,7 @@
     "builds": [
    {
     "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "icon": ["assets/lanze.png","assets/wind.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1339,7 +1339,7 @@
   },
   {
     "name": "Handschuhe",
-    "icon": "assets/handschuhe.png",
+    "icon": ["assets/handschuhe.png","assets/wind.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1359,7 +1359,7 @@
   },
  {
     "name": "Nunchaku",
-    "icon": "assets/nunchakus.png",
+    "icon": ["assets/nunchakus.png","assets/wind.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1388,7 +1388,7 @@
     "builds": [
    {
     "name": "Großschwert",
-    "icon": "assets/großschwert.png",
+    "icon": ["assets/großschwert.png","assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1408,7 +1408,7 @@
   },
   {
     "name": "Axt",
-    "icon": "assets/axt.png",
+    "icon": ["assets/axt.png","assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1428,7 +1428,7 @@
   },
  {
     "name": "Nunchaku",
-    "icon": "assets/nunchakus.png",
+    "icon": ["assets/nunchakus.png","assets/physisch.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1457,7 +1457,7 @@
     "builds": [
    {
     "name": "Doppelschwerter",
-    "icon": "assets/doppelklingen.png",
+    "icon": ["assets/doppelklingen.png","assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1477,7 +1477,7 @@
   },
   {
     "name": "Großschwert",
-    "icon": "assets/großschwert.png",
+    "icon": ["assets/großschwert.png","assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
@@ -1497,7 +1497,7 @@
   },
  {
     "name": "Langschwert",
-    "icon": "assets/langschwert.png",
+    "icon": ["assets/langschwert.png","assets/wind.png"],
     
     "mainweapon": "-",
     "offhandweapon": "-",
