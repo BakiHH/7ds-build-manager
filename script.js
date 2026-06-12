@@ -1,7 +1,7 @@
 let data = [];
 let searchInput;
-let elementFilters;
-let roleFilters;
+let elementFilter;
+let roleFilter;
 
 async function init() {
     const res = await fetch("database.json");
@@ -24,9 +24,9 @@ function renderList() {
     const list = document.getElementById("list");
     list.innerHTML = "";
 
-    const searchValue = document.getElementById("search").value.toLowerCase();
-    const selectedElement = document.getElementById("elementFilter").value;
-    const selectedRole = document.getElementById("roleFilter").value;
+const searchValue = searchInput.value.toLowerCase();
+const selectedElement = elementFilter.value;
+const selectedRole = roleFilter.value;
 
     const filtered = data.filter((c) => {
 
@@ -52,7 +52,7 @@ function renderList() {
             <span>${c.name}</span>
         `;
 
-        div.onclick = () => load(data.indexOf(c));
+       div.onclick = () => load(c);
 
         list.appendChild(div);
     });
@@ -72,8 +72,8 @@ function loadBuild(build) {
     document.getElementById("notes").innerText = build.notes;
 }
 
-function load(i) {
-    const c = data[i];
+function load(c) {
+   
 
     document.getElementById("img").src = c.image;
     document.getElementById("name").innerText = c.name;
