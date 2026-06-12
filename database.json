@@ -11,7 +11,7 @@
     "name": "Buch",
     "icon": "assets/buch.png",
 
-    "engraved": "-",
+    "engraved": "Tochter des Waldes und der Erde",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -49,7 +49,7 @@
     "name": "Stab",
     "icon": "assets/stab.png",
     
-    "engraved": "-",
+    "engraved": "Feenschutz",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -74,7 +74,7 @@
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
 
-    "engraved": "-",
+    "engraved": "Ein Neues Abenteuer",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -90,7 +90,7 @@
     "name": "Axt",
     "icon": "assets/axt.png",
     
-    "engraved": "-",
+    "engraved": "Schlichte Verteidigung",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -106,7 +106,7 @@
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
     
-    "engraved": "-",
+    "engraved": "Eine Äusserst Bösartige Majestät",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -131,7 +131,7 @@
     "name": "Buch",
     "icon": "assets/buch.png",
 
-    "engraved": "-",
+    "engraved": "Leichtes Gewand",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -147,7 +147,7 @@
     "name": "Zauberstab",
     "icon": "assets/zauberstab.png",
     
-    "engraved": "-",
+    "engraved": "Die Boar Sin der Gefrässigkeit",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -188,7 +188,7 @@
     "name": "Rapier",
     "icon": "assets/rapier.png",
 
-    "engraved": "-",
+    "engraved": "Leichtes Party-Outfit",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -204,7 +204,7 @@
     "name": "Buch",
     "icon": "assets/buch.png",
     
-    "engraved": "-",
+    "engraved": "Formalität der Obersten Gelehrten",
     "chest": "-",
     "legs": "-",
     "boots": "-",
@@ -220,7 +220,7 @@
     "name": "Stab",
     "icon": "assets/stab.png",
     
-    "engraved": "-",
+    "engraved": "Abenteuerkleidung der Erforscherin",
     "chest": "-",
     "legs": "-",
     "boots": "-",
