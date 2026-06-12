@@ -396,3 +396,12 @@ background: linear-gradient( 180deg, #3f72d3 0%, #5c8ef0 50%, #3668c6 100%);
     border-bottom: 1px solid rgba(216,185,106,0.35);
     padding-bottom: 6px;
 }
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+#list {
+    flex: 1;
+    overflow-y: auto;
+}

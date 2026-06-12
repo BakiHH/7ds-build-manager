@@ -26,6 +26,7 @@ async function init() {
 }
 
 function renderList() {
+    console.log("Anzahl Charaktere:", filtered.length);
   list.innerHTML = "";
 
 const searchValue = searchInput.value.toLowerCase();
