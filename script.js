@@ -118,11 +118,16 @@ function load(c) {
         const btn = document.createElement("button");
         btn.className = "tab";
 
-        btn.innerHTML = `
-            <img src="${build.icon}" class="tab-icon">
-            ${build.name}
-        `;
+const iconsHTML = (Array.isArray(build.icon) ? build.icon : [build.icon])
+  .map(src => `<img src="${src}" class="tab-icon">`)
+  .join("");
 
+btn.innerHTML = `
+    <div class="tab-icons">
+        ${iconsHTML}
+    </div>
+    ${build.name}
+`;
         btn.addEventListener("click", () => {
 
             document.querySelectorAll(".tab")
