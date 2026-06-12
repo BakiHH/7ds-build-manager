@@ -87,6 +87,9 @@ function loadBuild(build) {
 }
 
 function load(c) {
+    console.log(c);
+    console.log(c.builds);
+
     document.getElementById("img").src = c.image;
     document.getElementById("name").innerText = c.name;
     document.getElementById("role").innerText = c.roles.join(", ");
