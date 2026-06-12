@@ -141,4 +141,20 @@ function filter(e) {
     });
 }
 
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+// Öffnen beim Klick auf Bild
+document.addEventListener("click", (e) => {
+    if (e.target.tagName === "IMG" && e.target.closest("#gallery")) {
+        lightbox.classList.remove("hidden");
+        lightboxImg.src = e.target.src;
+    }
+});
+
+// Schließen beim Klick auf Hintergrund
+lightbox.addEventListener("click", () => {
+    lightbox.classList.add("hidden");
+});
+
 window.onload = init;
