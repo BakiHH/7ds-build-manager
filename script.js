@@ -46,10 +46,10 @@ const selectedRole = roleFilter.value;
  return matchesSearch && matchesElement && matchesRole;
 });
 
-    const fragment = document.createDocumentFragment();
-
     console.log("Data:", data.length);
-console.log("List:", filtered.length);
+ console.log("List:", filtered.length);
+
+    const fragment = document.createDocumentFragment();
 
 filtered.forEach(c => {
         const div = document.createElement("div");
