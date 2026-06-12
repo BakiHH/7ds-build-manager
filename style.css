@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: Arial;
-    color: #f5e6b3;
+    color: #fff0b5;
     background: 
     linear-gradient(180deg, #08142f 0%, #10285a 35%, #1a3f87 70%, #0c1d45 100%); 
 }
@@ -44,11 +44,21 @@ body {
 }
 
 .logo {
-    color: var(--gold);
     font-size: 24px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
+
+    background: linear-gradient(
+        180deg,
+        #fff6d0 0%,
+        #ffe8a1 30%,
+        #d8b96a 70%,
+        #a57a2a 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sidebar input {
@@ -120,8 +130,10 @@ body {
 }
 
 .character-item span {
-    color: #e7d7a2;
-    font-weight: 500;
+    color: var(--gold-light);
+    font-weight: 600;
+
+    text-shadow: 0 0 4px rgba(255,217,120,0.25);
 }
 .character-item.active {
     border-left: 3px solid #ffd978;
@@ -186,7 +198,7 @@ body {
      #315fb3 50%, 
      #1d4289 100%);
     border: 1px solid #cda95d;
-    color: #f5e6b3;
+    color: var(--gold-light);
 
     padding: 8px 12px;
     cursor: pointer;
@@ -403,4 +415,22 @@ background: linear-gradient( 180deg, #3f72d3 0%, #5c8ef0 50%, #3668c6 100%);
 
 #list {
     overflow-y: auto;
+}
+
+#name {
+    color: var(--gold-light);
+
+    text-shadow:
+        0 0 8px rgba(255,217,120,0.3);
+}
+
+.card h2,
+.card h3,
+#name,
+.character-item span,
+.tab {
+    color: var(--gold-light);
+
+    text-shadow:
+        0 0 4px rgba(255,217,120,0.25);
 }
