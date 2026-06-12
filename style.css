@@ -402,6 +402,5 @@ background: linear-gradient( 180deg, #3f72d3 0%, #5c8ef0 50%, #3668c6 100%);
 }
 
 #list {
-    flex: 1;
     overflow-y: auto;
 }
