@@ -11,6 +11,9 @@
     "name": "Buch",
     "icon": "assets/buch.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Tochter des Waldes und der Erde",
     "chest": "-",
     "legs": "-",
@@ -21,6 +24,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
@@ -32,6 +36,8 @@
     "assets/tioreh2.png"
 ],
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
 
     "engraved": "Beginn des Abenteuers",
     "chest": "Lebenskristall",
@@ -43,12 +49,16 @@
     "necklace": "Buff Duration",
     "ring": "Magic Charge",
 
+    "bonus": "-",
     "notes": "Top Support für lange Bosskämpfe mit Heal + Buff Sustain."
   },
  {
     "name": "Stab",
     "icon": "assets/stab.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Feenschutz",
     "chest": "-",
     "legs": "-",
@@ -59,6 +69,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -74,6 +85,9 @@
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
 
+   "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Ein Neues Abenteuer",
     "chest": "-",
     "legs": "-",
@@ -84,12 +98,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Axt",
     "icon": "assets/axt.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Schlichte Verteidigung",
     "chest": "-",
     "legs": "-",
@@ -100,12 +118,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Eine Äusserst Bösartige Majestät",
     "chest": "-",
     "legs": "-",
@@ -116,6 +138,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -131,6 +154,9 @@
     "name": "Buch",
     "icon": "assets/buch.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Leichtes Gewand",
     "chest": "-",
     "legs": "-",
@@ -141,12 +167,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Zauberstab",
     "icon": "assets/zauberstab.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Die Boar Sin der Gefrässigkeit",
     "chest": "-",
     "legs": "-",
@@ -157,12 +187,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Stab",
     "icon": "assets/stab.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -173,6 +207,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -188,6 +223,9 @@
     "name": "Rapier",
     "icon": "assets/rapier.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Leichtes Party-Outfit",
     "chest": "-",
     "legs": "-",
@@ -198,12 +236,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Buch",
     "icon": "assets/buch.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Formalität der Obersten Gelehrten",
     "chest": "-",
     "legs": "-",
@@ -214,12 +256,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Stab",
     "icon": "assets/stab.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "Abenteuerkleidung der Erforscherin",
     "chest": "-",
     "legs": "-",
@@ -230,6 +276,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -245,6 +292,9 @@
     "name": "Schild",
     "icon": "assets/schild.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -255,12 +305,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Buch",
     "icon": "assets/buch.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -271,12 +325,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Zauberstab",
     "icon": "assets/zauberstab.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -287,6 +345,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -302,6 +361,9 @@
     "name": "Axt",
     "icon": "assets/axt.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -312,12 +374,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Handschuhe",
     "icon": "assets/handschuhe.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -328,12 +394,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Nunchaku",
     "icon": "assets/nunchakus.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -344,6 +414,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -359,6 +430,9 @@
     "name": "Großschwert",
     "icon": "assets/großschwert.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -368,13 +442,17 @@
     "earrings": "-",
     "necklace": "-",
     "ring": "-",
-
+    
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Stab",
     "icon": "assets/stab.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -385,12 +463,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -401,6 +483,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -416,6 +499,9 @@
     "name": "Zauberstab",
     "icon": "assets/zauberstab.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -426,12 +512,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Stab",
     "icon": "assets/stab.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -442,12 +532,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Buch",
     "icon": "assets/buch.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -458,6 +552,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -473,6 +568,9 @@
     "name": "Axt",
     "icon": "assets/axt.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -483,12 +581,15 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Großschwert",
     "icon": "assets/großschwert.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -499,12 +600,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Schild",
     "icon": "assets/schild.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -515,6 +620,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -530,6 +636,9 @@
     "name": "Lanze",
     "icon": "assets/lanze.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -540,12 +649,15 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Schild",
     "icon": "assets/schild.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -556,12 +668,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Rapier",
     "icon": "assets/rapier.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -572,6 +688,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -587,6 +704,8 @@
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -597,12 +716,15 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Lanze",
     "icon": "assets/lanze.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -613,12 +735,15 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Rapier",
     "icon": "assets/rapier.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -629,6 +754,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -644,6 +770,9 @@
     "name": "Stab",
     "icon": "assets/stab.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -654,12 +783,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Buch",
     "icon": "assets/buch.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -670,12 +803,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Zauberstab",
     "icon": "assets/zauberstab.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -686,6 +823,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -701,6 +839,9 @@
     "name": "Stab",
     "icon": "assets/stab.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -711,12 +852,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -727,12 +872,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -743,6 +892,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -758,6 +908,8 @@
     "name": "Axt",
     "icon": "assets/axt.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -768,11 +920,15 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
     
     "engraved": "-",
     "chest": "-",
@@ -784,12 +940,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Buch",
     "icon": "assets/buch.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+    
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -800,6 +960,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -815,6 +976,9 @@
     "name": "Schild",
     "icon": "assets/schild.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -825,12 +989,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Axt",
     "icon": "assets/axt.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -841,12 +1009,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Rapier",
     "icon": "assets/rapier.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -857,6 +1029,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -872,6 +1045,9 @@
     "name": "Rapier",
     "icon": "assets/rapier.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -882,27 +1058,15 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
     
-    "engraved": "-",
-    "chest": "-",
-    "legs": "-",
-    "boots": "-",
-    "belt": "-",
-
-    "earrings": "-",
-    "necklace": "-",
-    "ring": "-",
-
-    "notes": "-"
-  },
- {
-    "name": "Lanze",
-    "icon": "assets/lanze.png",
+    "mainweapon": "-",
+    "offhandweapon": "-",
     
     "engraved": "-",
     "chest": "-",
@@ -914,6 +1078,27 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
+    "notes": "-"
+  },
+ {
+    "name": "Lanze",
+    "icon": "assets/lanze.png",
+    
+    "mainweapon": "-",
+    "offhandweapon": "-",
+    
+    "engraved": "-",
+    "chest": "-",
+    "legs": "-",
+    "boots": "-",
+    "belt": "-",
+
+    "earrings": "-",
+    "necklace": "-",
+    "ring": "-",
+
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -929,6 +1114,9 @@
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -939,12 +1127,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Schild",
     "icon": "assets/schild.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -955,12 +1147,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Lanze",
     "icon": "assets/lanze.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -971,6 +1167,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -986,6 +1183,9 @@
     "name": "Schild",
     "icon": "assets/schild.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -996,12 +1196,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Nunchaku",
     "icon": "assets/nunchakus.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1012,12 +1216,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Handschuhe",
     "icon": "assets/handschuhe.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1028,6 +1236,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -1043,6 +1252,9 @@
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1053,12 +1265,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1069,12 +1285,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Lanze",
     "icon": "assets/lanze.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1085,6 +1305,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -1100,6 +1321,9 @@
     "name": "Lanze",
     "icon": "assets/lanze.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1110,12 +1334,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Handschuhe",
     "icon": "assets/handschuhe.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1126,12 +1354,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Nunchaku",
     "icon": "assets/nunchakus.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1142,6 +1374,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -1157,6 +1390,9 @@
     "name": "Großschwert",
     "icon": "assets/großschwert.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1167,12 +1403,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Axt",
     "icon": "assets/axt.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1183,12 +1423,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Nunchaku",
     "icon": "assets/nunchakus.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1199,6 +1443,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
@@ -1214,6 +1459,9 @@
     "name": "Doppelschwerter",
     "icon": "assets/doppelklingen.png",
 
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1224,12 +1472,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
   {
     "name": "Großschwert",
     "icon": "assets/großschwert.png",
-    
+
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1240,12 +1492,16 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   },
  {
     "name": "Langschwert",
     "icon": "assets/langschwert.png",
     
+    "mainweapon": "-",
+    "offhandweapon": "-",
+
     "engraved": "-",
     "chest": "-",
     "legs": "-",
@@ -1256,6 +1512,7 @@
     "necklace": "-",
     "ring": "-",
 
+    "bonus": "-",
     "notes": "-"
   }
  ]
