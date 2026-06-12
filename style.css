@@ -94,9 +94,9 @@ body {
 
     background: linear-gradient(
         180deg,
-        #153a82 0%,
-        #224f9f 50%,
-        #183b7b 100%
+        rgba(21,58,130,0.60) 0%,
+        rgba(34,79,159,0.60) 50%,
+        rgba(24,59,123,0.60) 100%
     );
     border: 1px solid #cda95d;
 
@@ -162,9 +162,12 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
-    background: linear-gradient(180deg, rgba(21,58,130,0.9) 0%, rgba(29,72,155,0.9) 50%, rgba(18,43,90,0.9) 100%
+    background: linear-gradient(
+        180deg,
+        rgba(21,58,130,0.75) 0%,
+        rgba(29,72,155,0.75) 50%,
+        rgba(18,43,90,0.75) 100%
     );
-
 
     padding: 15px;
     border: 2px solid #d8b96a;
@@ -194,9 +197,10 @@ body {
     gap: 5px;
 
     background: linear-gradient( 180deg, 
-     #224d9c 0%,
-     #315fb3 50%, 
-     #1d4289 100%);
+    rgba(34,77,156,0.70) 0%,
+    rgba(49,95,179,0.70) 50%,
+    rgba(29,66,137,0.70) 100%);
+
     border: 1px solid #cda95d;
     color: var(--gold-light);
 
@@ -241,8 +245,8 @@ background: linear-gradient( 180deg, #3f72d3 0%, #5c8ef0 50%, #3668c6 100%);
 .card {
     background: linear-gradient(
         180deg,
-        rgba(24,55,115,0.92) 0%,
-        rgba(18,43,90,0.92) 100%
+        rgba(24,55,115,0.65) 0%,
+        rgba(18,43,90,0.65) 100%
     );
     
     border: 1px solid #cda95d;
