@@ -2,7 +2,7 @@
   {
     "name": "Tioreh",
     "roles": ["Unterstützer"],
-    "element": ["Feuer","Erde"],
+    "elements": ["Feuer","Erde"],
     "image": "assets/tioreh.png",
 
     "builds": [
@@ -58,7 +58,7 @@
 },
   {
     "name": "Meliodas",
-    "role": "Schaden",
+    "role": ["Schaden"],
     "image": "assets/meliodas.png",
 
     "builds": [
