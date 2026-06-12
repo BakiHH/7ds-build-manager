@@ -19,6 +19,10 @@ async function init() {
     elementFilter.addEventListener("change", renderList);
     roleFilter.addEventListener("change", renderList);
 
+    renderList();
+    if (data.length > 0) {activeCharacter = data [0];
+        load(data[0]);
+}
 }
 
 function renderList() {
@@ -38,23 +42,20 @@ const selectedRole = roleFilter.value;
 
         const matchesRole =
             !selectedRole || c.roles.includes(selectedRole);
-            renderList();
 
-if (data.length > 0) {
-    load(data[0]);
-}
+ return matchesSearch && matchesElement && matchesRole;
+});
 
-        return matchesSearch && matchesElement && matchesRole;
-    });
-    
     const fragment = document.createDocumentFragment();
 
 filtered.forEach(c => {
         const div = document.createElement("div");
-        if (activeCharacter && activeCharacter.name === c.name) {
-    div.classList.add("active");
-}
+
         div.className = "character-item";
+
+          if (activeCharacter && activeCharacter.name === c.name) {
+    div.classList.add("active");
+          }
 
         div.innerHTML = `
             <img src="${c.image}" class="character-icon">
