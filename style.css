@@ -179,3 +179,61 @@ body {
 .glow {
     box-shadow: 0 0 15px rgba(212,175,55,0.2);
 }
+
+/* FILTER BEREICH */
+.filters {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.filters select {
+    flex: 1;
+
+    background: linear-gradient(
+        180deg,
+        #1f1810 0%,
+        #14110c 100%
+    );
+
+    color: #e7d7a2;
+
+    border: 1px solid #3a2f1a;
+    border-radius: 6px;
+
+    padding: 8px 30px 8px 10px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image:
+        linear-gradient(45deg, transparent 50%, #d4af37 50%),
+        linear-gradient(135deg, #d4af37 50%, transparent 50%);
+    background-position:
+        calc(100% - 15px) center,
+        calc(100% - 10px) center;
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+}
+
+.filters select:hover {
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.25);
+}
+
+.filters select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 10px rgba(212,175,55,0.4);
+}
+
+/* Dropdown-Liste */
+.filters select option {
+    background: #14110c;
+    color: #e7d7a2;
+}
