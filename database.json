@@ -115,7 +115,8 @@
  },
   {
     "name": "Merlin",
-    "roles": "Schaden,Burst",
+    "roles": ["Schaden","Burst"],
+    "elements": ["Eis","Blitz","Feuer"],
     "image": "assets/merlin.png",
 
     "builds": [
@@ -171,7 +172,8 @@
  },
   {
     "name": "Clotho",
-    "role": "Schaden,Unterstützer,Burst",
+    "roles": ["Schaden","Unterstützer","Burst"],
+    "elements": ["Wind","Eis"],
     "image": "assets/clotho.png",
 
     "builds": [
@@ -227,7 +229,8 @@
  },
   {
     "name": "Daisy",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Erde","Blitz","Wind"],
     "image": "assets/daisy.png",
 
     "builds": [
@@ -283,7 +286,8 @@
  },
   {
     "name": "Diane",
-    "role": "Schaden,Burst,Unterstützer",
+    "roles": ["Schaden","Burst","Unterstützer"],
+    "elements": ["Erde"],
     "image": "assets/diane.png",
 
     "builds": [
@@ -339,7 +343,8 @@
  },
   {
     "name": "Drake",
-    "role": "Schaden,Burst,Unterstützer",
+    "roles": ["Schaden","Burst","Unterstützer"],
+    "elements": ["Blitz"],
     "image": "assets/drake.png",
 
     "builds": [
@@ -395,7 +400,8 @@
  },
   {
     "name": "Elaine",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Wind","Heilig","Erde"],
     "image": "assets/elaine.png",
 
     "builds": [
@@ -451,7 +457,8 @@
  },
   {
     "name": "Escanor",
-    "role": "Schaden",
+    "roles": ["Schaden"],
+    "elements": ["Feuer","Heilig"],
     "image": "assets/escanor.png",
 
     "builds": [
@@ -507,7 +514,8 @@
  },
   {
     "name": "Guila",
-    "role": "Schaden,Unterstützer,Burst",
+    "roles": ["Schaden","Unterstützer","Burst"],
+    "elements": ["Feuer"],
     "image": "assets/guila.png",
 
     "builds": [
@@ -563,7 +571,8 @@
  },
   {
     "name": "Jericho",
-    "role": "Schaden,Burst,Unterstützer",
+    "roles": ["Schaden","Burst","Unterstützer"],
+    "elements": ["Eis"],
     "image": "assets/jericho.png",
 
     "builds": [
@@ -619,7 +628,8 @@
  },
   {
     "name": "King",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Heilig","Pysisch","Erde"],
     "image": "assets/king.png",
 
     "builds": [
@@ -675,7 +685,8 @@
  },
   {
     "name": "Mannie",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Heilig","Eis"],
     "image": "assets/mannie.png",
 
     "builds": [
@@ -731,7 +742,8 @@
  },
   {
     "name": "Bug",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Schatten"],
     "image": "assets/bug.png",
 
     "builds": [
@@ -787,7 +799,8 @@
  },
   {
     "name": "Dredrin",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Erde","Pysisch","Heilig"],
     "image": "assets/dredrin.png",
 
     "builds": [
@@ -843,7 +856,8 @@
  },
   {
     "name": "Dreyfus",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Pysisch","Erde","Heilig"],
     "image": "assets/dreyfus.png",
 
     "builds": [
@@ -899,7 +913,8 @@
  },
   {
     "name": "Gilthunder",
-    "role": "Schaden,Burst,Unterstützer",
+    "roles": ["Schaden","Burst","Unterstützer"],
+    "elements": ["Blitz"],
     "image": "assets/gilthunder.png",
 
     "builds": [
@@ -955,7 +970,8 @@
  },
   {
     "name": "Griamore",
-    "role": "Unterstützer",
+    "roles": ["Unterstützer"],
+    "elements": ["Pysisch"],
     "image": "assets/griamore.png",
 
     "builds": [
@@ -1011,7 +1027,8 @@
  },
   {
     "name": "Hendrickson",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Heilig","Pysisch","Schatten"],
     "image": "assets/hendrickson.png",
 
     "builds": [
@@ -1067,7 +1084,8 @@
  },
   {
     "name": "Howzer",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Wind"],
     "image": "assets/howzer.png",
 
     "builds": [
@@ -1123,7 +1141,8 @@
  },
   {
     "name": "Slater",
-    "role": "Schaden,Unterstützer",
+    "roles": ["Schaden","Unterstützer"],
+    "elements": ["Feuer","Pysisch"],
     "image": "assets/slater.png",
 
     "builds": [
@@ -1179,7 +1198,8 @@
  },
   {
     "name": "Tristan",
-    "role": "Schaden,Burst",
+    "roles": ["Schaden","Burst"],
+    "elements": ["Feuer","Wind"],
     "image": "assets/tristan.png",
 
     "builds": [
