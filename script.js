@@ -26,7 +26,6 @@ async function init() {
 }
 
 function renderList() {
-    console.log("Anzahl Charaktere:", filtered.length);
   list.innerHTML = "";
 
 const searchValue = searchInput.value.toLowerCase();
@@ -48,6 +47,9 @@ const selectedRole = roleFilter.value;
 });
 
     const fragment = document.createDocumentFragment();
+
+    console.log("Data:", data.length);
+console.log("List:", filtered.length);
 
 filtered.forEach(c => {
         const div = document.createElement("div");
