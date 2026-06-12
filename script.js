@@ -95,6 +95,12 @@ function load(c) {
     document.getElementById("role").innerText = c.roles.join(", ");
     document.getElementById("tabs").innerHTML = "";
 
+    const gallery = document.getElementById("gallery");
+
+    gallery.innerHTML = (c.images || [])
+        .map(img => `<img src="${img}">`)
+        .join("");
+
     c.builds.forEach((build, index) => {
 
 

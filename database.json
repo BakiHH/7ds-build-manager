@@ -5,6 +5,12 @@
     "elements": ["Feuer","Erde"],
     "image": "assets/tioreh.png",
 
+    "images": [
+        "assets/bilder/tioreh1.jpg",
+        "assets/bilder/tioreh2.jpg"
+    ],
+
+
     "builds": [
    {
     "name": "Buch",
