@@ -237,3 +237,24 @@ body {
     background: #14110c;
     color: #e7d7a2;
 }
+/* BILDER GALERIE */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+#gallery img {
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #d4af37;
+    box-shadow: 0 0 10px rgba(212,175,55,0.25);
+    transition: 0.2s;
+}
+
+#gallery img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(212,175,55,0.5);
+}
