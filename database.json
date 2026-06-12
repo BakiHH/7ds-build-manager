@@ -9,8 +9,7 @@
     "builds": [
    {
     "name": "Buch",
-    "icon1": "assets/buch.png",
-    "icon2": "assets/feuer.png",
+    "icon": ["assets/buch.png", "assets/feuer.png"],
 
     "mainweapon": "-",
     "offhandweapon": "-",
